@@ -1,0 +1,23 @@
+{
+    "schemaVersion": 1,
+    "id": "knifemod",
+    "version": "1.0.0",
+    "name": "Knife Mod",
+    "description": "A mod that adds custom knives to Minecraft.",
+    "authors": [
+        "ayazunalan0924"
+    ],
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.ayazunalan0924.knifemod.KnifeMod"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.14.0",
+        "fabric-api": "*",
+        "minecraft": "1.20.4"
+    }
+}
